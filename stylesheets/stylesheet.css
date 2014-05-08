@@ -60,7 +60,8 @@ a {
   color: #2879d0;
 }
 a:hover {
-  color: #2268b2;
+	color: #2268b2;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 header {
@@ -178,10 +179,11 @@ pre {
   border: solid 1px #f2f2f2;
 }
 pre code {
-  color: #2879d0;
-  background-color: #fff;
-  border: none;
-  padding: 0;
+	color: #2879d0;
+	background-color: #fff;
+	border: none;
+	padding: 0;
+	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
 ul, ol, dl {
