@@ -18,9 +18,9 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-size: 16px;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -61,7 +61,7 @@ a {
 }
 a:hover {
 	color: #2268b2;
-	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+	font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
 }
 
 header {
@@ -309,7 +309,8 @@ h6:before {
 }
 
 p {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
 }
  
 a {
@@ -453,11 +454,12 @@ footer a:hover {
     width: 100% ! important;
   }
   aside#sidebar {
-    background-image: none;
-    margin-top: 20px;
-    border-top: solid 1px #ddd;
-    padding: 20px 0;
-    min-height: 0;
+	background-image: none;
+	margin-top: 20px;
+	border-top: solid 1px #ddd;
+	padding: 20px 0;
+	min-height: 0;
+	font-weight: bold;
   }
   aside#sidebar a.button {
     display: none;
