@@ -62,6 +62,7 @@ a {
 a:hover {
 	color: #2268b2;
 	font-family: "Architects Daughter", "Helvetica Neue", Helvetica, Arial, serif;
+	font-size: 14px;
 }
 
 header {
@@ -450,8 +451,9 @@ footer a:hover {
   }
   #main-content,
   aside#sidebar {
-    float: none;
-    width: 100% ! important;
+	float: none;
+	width: 100% ! important;
+	font-family: "Helvetica Neue", Helvetica, Arial, serif;
   }
   aside#sidebar {
 	background-image: none;
